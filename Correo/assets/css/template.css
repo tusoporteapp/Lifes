@@ -1,0 +1,19 @@
+.body-content {
+  --primary: #0091ed;
+  --secondary: #0bc15c;
+  --info: #fa943e;
+  --dark: #27282f;
+  --headings-font: Raleway,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headings-font);
+  font-weight: 700;
+}
+
+.btn .btn-content {
+  font-family: var(--headings-font);
+  font-weight: 700;
+  box-shadow: 1px 1px 3px #e1e1e1;
+}
+
